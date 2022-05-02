@@ -1,0 +1,28 @@
+start
+
+int n;
+int i;
+int count;
+
+pcode
+
+count=0;
+n=14;
+i = 1;
+
+start_while(i <= n/2):
+	start_if(n%i == 0):
+		count=1;
+		end_if
+		i=i+1;
+	end_while
+
+start_if(count==0):
+	display n;
+end_if
+
+start_else:
+	display 0;
+end_else
+
+terminate;
