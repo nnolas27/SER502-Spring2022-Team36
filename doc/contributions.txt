@@ -24,3 +24,16 @@ INDIVIDUAL CONTRIBUTIONS MILESTONE 1:
 *  Design - Virinchi and Anila
 *  Information about Interpreter - Prakruthi 
 *  Gathered knowledge about Parser - Entire Team
+
+INDIVIDUALS CONTRIBUTIONS MILESTONE 2:
+
+* Grammar - Kaushik, Nihal, Prakruthi, Anila, Venkata
+* Setting up ANTLR and IDE - Kaushik, Nihal, Prakruthi, Anila, Venkata
+* Lexing and Parsing - Venkata, Anila
+* Intermediate code generation - Prakruthi, Nihal
+* Compiler, constants - Kaushik, Venkata
+* Run time - Prakruthi, Kaushik 
+* Integrating all files - Kaushik, Nihal, Prakruthi, Anila, Venkata
+* Sample programs - Nihal, Anila
+* Documentation and Youtube - Kaushik, Nihal, Prakruthi, Anila, Venkata
+* Github Repo - Kaushik, Nihal, Prakruthi, Anila, Venkata
