@@ -1,0 +1,21 @@
+start
+int a;
+int b;
+
+pcode
+a=10;
+b=20;
+display a;
+display b;
+
+$ Swaping a with b 
+
+a=a+b;
+b=a-b;
+a=a-b;
+
+$ After Swaping a and b are
+display a;
+display b;
+
+terminate;
