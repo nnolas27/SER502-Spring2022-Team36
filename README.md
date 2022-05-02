@@ -44,3 +44,8 @@ Eclipse - IDE
         1. Open your browser and type https://www.eclipse.org/
         2. Click on download and select the 64 bit version
         3. Open the downloaded file and click on “eclipse-inst-win64.exe” file to install the IDE
+
+
+Running our project
+
+    *
