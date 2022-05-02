@@ -48,4 +48,10 @@ Eclipse - IDE
 
 Running our project
 
-    *
+    1. clone the repository into your local machine 
+    2. After cloning the repositpry, run the below commands to generate 
+       intermediate code by compiler .jar and use the .planint file to get 
+       the output of the sample file using runtime .jar
+        
+            java -jar compiler.jar modelPRograms/fibonacci.plan
+            java -jar runtime.jar modelPRograms/fibonacci.planint
