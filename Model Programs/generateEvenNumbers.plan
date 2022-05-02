@@ -1,0 +1,25 @@
+start
+
+int a;
+int b;
+int c;
+int t;
+
+pcode
+
+
+b = 0;
+c = 65;
+
+
+start_while(b <= c):
+	$Print even numbers
+	start_if(b % 2 == 0 ):
+		display b;
+		end_if
+	b= b + 1;
+end_while
+
+
+
+terminate;
