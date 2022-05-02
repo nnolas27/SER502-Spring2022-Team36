@@ -1,0 +1,24 @@
+start
+
+int a;
+int b;
+int c;
+int t;
+
+pcode
+
+a = 0;
+b = 1;
+c = 10;
+t = 0;
+
+
+start_for(c != 0):
+	t = a;
+	a = b;
+	b = t + b;
+	c = c - 1;
+	display a;
+	end_for
+
+terminate;
