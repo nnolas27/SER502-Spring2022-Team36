@@ -19,11 +19,11 @@ Anila Devarashetty - 1222977366 - adevaras
 
 Language Extension: (.plan)
 
-TOOLS AND ENVIRONMENT
+## TOOLS AND ENVIRONMENT
 
-Language used - Java 1.8
+Language used - Java 17.03
 
-### ANTLR4 - Another Tool for Language Recognition (Version -4)
+### ANTLR4 - Another Tool for Language Recognition (Version -4.9)
 
     * Installation
 
