@@ -1,0 +1,53 @@
+start
+int a;
+int b;
+int c;
+int d;
+int z;
+
+pcode
+a = 1;
+b = 2;
+c = 3;
+d = 4;
+z = 0;
+
+display c;
+display SUB(d,a);
+display DIV(d,b);
+display MOD(d,c);
+display MUL(a,b,c);
+
+proc MUL(x,y,c):
+	start_if(c != 2):
+		z = x * y;	
+	end_if
+	start_else:
+		z = x * c;
+	end_else	
+	return z;
+endproc
+
+proc ADD (x,y):
+	start_while(c != 0):
+	c = c - 1;
+	end_while
+		return c;
+endproc
+
+proc SUB (x,y):
+	z = x - y;
+	return z;
+endproc
+
+proc DIV (x,y):
+	z = x / y;
+	return z;
+endproc
+
+proc MOD (x,y):
+	z = x % y;
+	return z;
+endproc
+
+terminate;
